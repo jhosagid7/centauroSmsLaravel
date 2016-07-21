@@ -1,0 +1,14 @@
+{
+    "name": "mixzplit/centauro-sms-dev",
+    "description": "API Centauro SMS para envio de mensajes de texto masivos",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mixzplit",
+            "email": "siriusdla@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
