@@ -4,13 +4,13 @@ Component / Package para API Centauro SMS Laravel
 ### Instalacion
 
 ```php
-composer require mixzplit/centauro-sms-dev
+composer require "mixzplit/centauro-sms-dev":"dev-master"
 ```
 
 Tambien se puede agregar al archivo composer.json de nuestro proyecto en la seccion require
 
 ```php
-mixzplit/centauro-sms-dev
+"mixzplit/centauro-sms-dev":"dev-master"
 ```
 
 Y luego ejecutar el comando ```php composer update ```

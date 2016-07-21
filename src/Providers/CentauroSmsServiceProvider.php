@@ -13,7 +13,7 @@ class CentauroSmsServiceProvider extends ServiceProvider
 	public function boot()
 	{
 		
-		$this->publishes([__DIR__.'/config/CentauroSMS.php' => config_path('CentauroSMS.php')]);
+		$this->publishes([__DIR__.'/../config/CentauroSMS.php' => config_path('CentauroSMS.php')]);
 
 		$this->cs_centauro_key     = config('CentauroSMS.centauro_key');
 		$this->cs_centauro_secret  = config('CentauroSMS.centauro_secret');
