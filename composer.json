@@ -1,6 +1,7 @@
 {
     "name": "mixzplit/centauro-sms-dev",
     "description": "API Centauro SMS para envio de mensajes de texto masivos",
+    "keywords": ["component", "laravel", "centauro", "sms", "centauroSMS", "API"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,5 +11,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+	"php": ">=5.4.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Mixzplit\\CentauroSMS\\" : "src/"
+        }
+    }
 }
