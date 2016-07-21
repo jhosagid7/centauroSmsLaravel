@@ -13,6 +13,8 @@ Tambien se puede agregar al archivo composer.json de nuestro proyecto en la secc
 mixzplit/centauro-sms-dev
 ```
 
+Y luego ejecutar el comando ```php composer update ```
+
 Agregar el Provider y Alias en config/app.php
 
 Providers
