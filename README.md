@@ -57,11 +57,11 @@ El comando generar el archivo ```php app/CentauroSMS.php ```, aqui podra agregar
 	];
 ```
 
-Tambien puede configurar sus credenciales para mas seguridad en su archivo .env (Recomendado) agregando las variables de entorno ´´´php CENTAURO_KEY´´´  y  ´´´php CENTAURO_SECRET´´´ y colocando los codigos correspondientes.
+Tambien puede configurar sus credenciales para mas seguridad en su archivo .env (Recomendado) agregando las variables de entorno ```php CENTAURO_KEY ```  y  ```php CENTAURO_SECRET ``` y colocando los codigos correspondientes.
 
 ### Como usuar
 
-´´´php
+```php
 
 <?php
 
@@ -126,7 +126,7 @@ class SmsController extends Controller
 
 }
 
-´´´
+```
 
 ### Mas información
 
